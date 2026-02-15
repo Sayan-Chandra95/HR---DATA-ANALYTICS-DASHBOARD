@@ -52,8 +52,6 @@ This project analyzes HR data spanning several years to provide insights on work
 
 ![Overall HR Analytics Dashboard](https://github.com/Sayan-Chandra95/HR---DATA-ANALYTICS-DASHBOARD/raw/main/Hr_Analyticis_1.png)
 
-**Turnover and Hiring Trends**
-
 ![Turnover and Hiring Trends](https://github.com/Sayan-Chandra95/HR---DATA-ANALYTICS-DASHBOARD/raw/main/Hr_Analyticis_2.png)
 
 
