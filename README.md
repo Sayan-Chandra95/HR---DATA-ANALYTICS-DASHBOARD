@@ -1,89 +1,70 @@
-**HR Data Analytics Dashboard — Power BI & SQL Server Project**
+# HR Data Analytics Dashboard — SQL & Power BI Project
 
-**Project Overview**
+## 📸 Dashboard Snapshots
 
-This project analyzes HR data spanning 20 years (2000–2020) with over 22,000 records to extract actionable insights on workforce demographics, employee distribution, turnover, and tenure trends.
-Using SQL Server Management Studio (SSMS) for data cleaning and querying, and Power BI for visualization, the project converts raw HR data into interactive dashboards for informed business decision-making.
+1. **Overall HR Analytics Dashboard**
+   ![HR Analytics Dashboard 1](Images/Hr_Analytics_1.png)
 
- **Project Objectives**
+2. **Turnover and Hiring Trends**
+   ![HR Analytics Dashboard 2](Images/Hr_Analytics_2.png)
 
-Understand workforce demographics: gender, age, and race/ethnicity breakdown
 
-Analyze employee distribution across departments, job titles, and locations
+## 📊 Project Overview
+This project analyzes HR data spanning several years to provide insights on workforce demographics, employee distribution, turnover, and tenure trends. By leveraging **SQL Server Management Studio (SSMS)** for data cleaning and transformation, and **Power BI** for interactive data visualization, this project helps HR managers make data-driven decisions.
 
-Measure turnover rates by department and tenure trends
+---
 
-Track employee count changes over time
+## 🎯 Project Objectives
+- **Workforce Demographics:** Understand gender, age, and race/ethnicity distribution of employees.
+- **Employee Distribution:** Analyze employees across different departments, job titles, and locations.
+- **Turnover Analysis:** Measure turnover rates by department, job title, and tenure.
+- **Employee Trends:** Track employee count over time and analyze hiring and termination trends.
+- **Dashboards & Insights:** Build interactive Power BI dashboards to visualize HR metrics.
 
-Create interactive dashboards for management to explore workforce metrics
+---
 
-**Tools & Techniques Used**
-**Data Cleaning & Analysis (SSMS)**
+## 🛠 Tools & Techniques
+**Data Cleaning & Analysis (SQL/SSMS):**
+- **Data Preparation:** Removed duplicates and handled missing values.
+- **Date Handling:** Standardized and categorized date formats for hire and termination dates.
+- **SQL Queries:** Wrote complex queries for employee turnover, tenure, and department distribution.
 
-Removed duplicates and handled missing values
+**Data Visualization (Power BI):**
+- **Dashboards:** Created interactive dashboards for HR management to view key metrics.
+- **KPI Tiles:** Total employees, turnover rate, average tenure.
+- **Charts:** Visualized employee distribution, tenure, and turnover over time using bar charts, pie charts, and line graphs.
+- **Geo-mapping:** Visualized employee distribution by geographic location.
+- **Slicers/Filters:** Enabled filtering by department, gender, age, and tenure for detailed insights.
 
-Standardized date formats for hire and termination dates
+---
 
-Categorized ages into defined groups (18–24, 25–34, 35–44, 45–54, 55–64)
+## ❓ Key Business Questions Answered
+- What is the gender and race/ethnicity breakdown of employees?
+- How is the age distribution across the workforce?
+- What is the employee count at headquarters vs remote locations?
+- What is the average tenure for terminated employees?
+- Which departments have the highest turnover rates?
+- How is employee distribution across job titles and locations?
+- How has the employee count changed over time?
 
-Calculated metrics like tenure, turnover rates, and average employment length
+---
 
-Wrote SQL queries to aggregate, filter, and summarize large datasets
+## 📈 Key Insights
+- **Gender Distribution:** Slightly more male employees; balanced gender distribution across departments.
+- **Age Distribution:** Majority of employees are aged 25–34, with fewer in the 55–64 age group.
+- **Turnover:** High turnover observed in specific departments; better retention in certain roles.
+- **Tenure Trends:** Average employment length varies across departments; high attrition in certain roles.
+- **Locations:** Highest concentration of employees at headquarters, with some regions underrepresented.
+- **Diversity:** Diversity breakdown shows a higher representation of white employees.
 
-Data Visualization (Power BI)
 
-Interactive dashboards with slicers & filters
+---
 
-KPI tiles for total employees, turnover rate, and average tenure
+## 💡 Business Impact
+- Helps HR teams track employee diversity and retention across departments.
+- Provides key insights to optimize recruitment strategies, staffing, and retention policies.
+- Allows management to make data-driven decisions regarding talent acquisition and workforce planning.
 
-Charts: bar, pie, and line graphs for distribution and trends
+---
 
-Geo-mapping: employee distribution by state
-
-Trend analysis over time for hiring and terminations
-
- **Key Business Questions Answered**
-
-What is the gender and race/ethnicity breakdown of employees?
-
-How is the age distribution across the workforce?
-
-How many employees work at headquarters vs remote locations?
-
-What is the average length of employment for terminated employees?
-
-How does gender distribution vary across departments and job titles?
-
-Which department has the highest turnover rate?
-
-What is the employee distribution across locations?
-
-How has the employee count changed over time?
-
-What is the tenure distribution for each department?
-
-**Key Insights**
-
-Gender: More male employees than female overall, fairly balanced across departments.
-
-Race/Ethnicity: White employees are dominant; Native Hawaiian and American Indian employees are least represented.
-
-Age Distribution: Majority are 25–34, followed by 35–44; fewest are 55–64.
-
-Location: Most employees work at headquarters; fewer in remote locations.
-
-Turnover & Tenure: Marketing and Training departments have the highest turnover; Legal and Auditing have the longest average tenure (~8 years).
-
-State Distribution: Ohio has the largest number of employees.
-
-Workforce Growth: Net employee count has increased steadily over the years.
-
- **Project Impact**
-
-Provides HR and management teams with actionable insights on workforce trends
-
-Enables data-driven decisions for retention strategies, staffing, and department planning
-
-Demonstrates ability to clean, analyze, and visualize large datasets using SQL Server and Power BI
-
-Highlights business-focused analytical thinking, critical for Data Analyst roles
+## 📂 Repository Structure
