@@ -3,10 +3,10 @@
 ## 📸 Dashboard Snapshots
 
 1. **Overall HR Analytics Dashboard**
-   ![HR Analytics Dashboard 1](Images/Hr_Analytics_1.png)
+   ![Dashboard](Hr_Analytics_1.png)
 
 2. **Turnover and Hiring Trends**
-   ![HR Analytics Dashboard 2](Images/Hr_Analytics_2.png)
+   ![Dashboard](Hr_Analytics_2.png)
 
 
 ## 📊 Project Overview
